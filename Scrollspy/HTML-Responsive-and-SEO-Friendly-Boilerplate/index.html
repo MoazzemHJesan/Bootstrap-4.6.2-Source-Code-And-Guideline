@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- REQUIRED META TAGS START -->
+    <!-- This meta tag is uses for Support all language -->
+    <meta charset="utf-8">
+    <!-- This meta tag is uses for Support all language -->
+
+    <!-- Setting the viewport to make your website look good on all devices: -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Setting the viewport to make your website look good on all devices: -->
+
+    <!-- Define keywords for search engines: -->
+    <meta name="keywords" content="HTML_Responsive_and_SEO_Friendly_Boilerplate, MoazzemHJesan">
+    <!-- Define keywords for search engines: -->
+
+    <!-- Define a description of your web page: -->
+    <meta name="description" content="Describe about your website here.">
+    <!-- Define a description of your web page: -->
+
+    <!-- Define the author of a page: -->
+    <meta name="author" content="MoazzemHJesan">
+    <!-- Define the author of a page: -->
+    <!-- REQUIRED META TAGS END -->
+
+    <!-- CSS START -->
+    <!-- BOOTSTRAP CSS START -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- BOOTSTRAP CSS END -->
+
+    <!-- CUSTOM CSS START -->
+    <link rel="stylesheet" href="css/default_theme.css">
+    <!-- CUSTOM CSS END -->
+
+    <!-- FONTAWESOME CSS START -->
+    <link rel="stylesheet" href="fonts/fontawesome/css/all.min.css">
+    <!-- FONTAWESOME CSS END -->
+    <!-- CSS END -->
+
+    <!-- FAVICON START -->
+    <link href="images/logo.png" rel="icon">
+    <!-- FAVICON END -->
+
+    <title>HTML Responsive and SEO Friendly Boilerplate</title>
+    </head>
+    <body>
+
+  
+
+        <h2>Example in navbar</h2>
+        <nav id="navbar-example2" class="navbar navbar-light bg-light">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a class="nav-link" href="#fat">@fat</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#mdo">@mdo</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#one">one</a>
+                <a class="dropdown-item" href="#two">two</a>
+                <div role="separator" class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#three">three</a>
+              </div>
+            </li>
+          </ul>
+        </nav>
+        <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+          <h4 id="fat">@fat</h4>
+          <p>...</p>
+          <h4 id="mdo">@mdo</h4>
+          <p>...</p>
+          <h4 id="one">one</h4>
+          <p>...</p>
+          <h4 id="two">two</h4>
+          <p>...</p>
+          <h4 id="three">three</h4>
+          <p>...</p>
+        </div>
+
+
+        <h2>Example with nested nav</h2>
+        <nav id="navbar-example3" class="navbar navbar-light bg-light">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <nav class="nav nav-pills flex-column">
+            <a class="nav-link" href="#item-1">Item 1</a>
+            <nav class="nav nav-pills flex-column">
+              <a class="nav-link ml-3 my-1" href="#item-1-1">Item 1-1</a>
+              <a class="nav-link ml-3 my-1" href="#item-1-2">Item 1-2</a>
+            </nav>
+            <a class="nav-link" href="#item-2">Item 2</a>
+            <a class="nav-link" href="#item-3">Item 3</a>
+            <nav class="nav nav-pills flex-column">
+              <a class="nav-link ml-3 my-1" href="#item-3-1">Item 3-1</a>
+              <a class="nav-link ml-3 my-1" href="#item-3-2">Item 3-2</a>
+            </nav>
+          </nav>
+        </nav>
+
+        <div data-spy="scroll" data-target="#navbar-example3" data-offset="0">
+          <h4 id="item-1">Item 1</h4>
+          <p>...</p>
+          <h5 id="item-1-1">Item 1-1</h5>
+          <p>...</p>
+          <h5 id="item-1-2">Item 1-2</h5>
+          <p>...</p>
+          <h4 id="item-2">Item 2</h4>
+          <p>...</p>
+          <h4 id="item-3">Item 3</h4>
+          <p>...</p>
+          <h5 id="item-3-1">Item 3-1</h5>
+          <p>...</p>
+          <h5 id="item-3-2">Item 3-2</h5>
+          <p>...</p>
+        </div>
+
+
+        <h2>Example with list-group</h2>
+        <div id="list-example" class="list-group">
+          <a class="list-group-item list-group-item-action" href="#list-item-1">Item 1</a>
+          <a class="list-group-item list-group-item-action" href="#list-item-2">Item 2</a>
+          <a class="list-group-item list-group-item-action" href="#list-item-3">Item 3</a>
+          <a class="list-group-item list-group-item-action" href="#list-item-4">Item 4</a>
+        </div>
+        <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
+          <h4 id="list-item-1">Item 1</h4>
+          <p>...</p>
+          <h4 id="list-item-2">Item 2</h4>
+          <p>...</p>
+          <h4 id="list-item-3">Item 3</h4>
+          <p>...</p>
+          <h4 id="list-item-4">Item 4</h4>
+          <p>...</p>
+        </div>
+
+
+        <h2>Via data attributes</h2>
+        <body data-spy="scroll" data-target="#navbar-example">
+          ...
+          <div id="navbar-example">
+            <ul class="nav nav-tabs" role="tablist">
+              ...
+            </ul>
+          </div>
+          ...
+        </body>
+
+
+
+    <!-- JS START -->
+    <!-- JQUERY JS START -->
+    <!--
+    <script src="js/jquery-1.12.4.min.js"></script>
+    -->
+    <!-- JQUERY JS END -->
+    
+<!-- JQUERY JS START -->
+    <script src="js/jquery-3.7.0.min.js"></script>
+    <!-- JQUERY JS END -->
+    
+    <!-- BOOTSTRAP JS START -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- BOOTSTRAP JS END -->
+
+    <!-- DEFAULT THEME JS START -->
+    <script src="js/default_theme.js"></script>
+    <!-- DEFAULT THEME JS END -->
+    <!-- JS END -->
+  </body>
+</html>
